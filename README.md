@@ -1,0 +1,2 @@
+# React setInterval Memory Leak
+This repository demonstrates a common React bug involving memory leaks caused by the improper use of `setInterval` within the `useEffect` hook.  The `bug.js` file showcases the flawed implementation, leading to a continuously running interval even after the component unmounts. The `bugSolution.js` file provides the corrected code, ensuring proper cleanup with `clearInterval`.  Understanding this pattern is crucial for building performant and stable React applications.
